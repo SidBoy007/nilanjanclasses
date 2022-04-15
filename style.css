@@ -305,6 +305,10 @@ hr {
     opacity: 1;
 }
 
+.lmao{
+        opacity: 0;
+    }
+
 @media screen and (max-width: 770px) {
     .single-service {
         flex-basis: 100%;
@@ -321,6 +325,9 @@ hr {
 
     .single-service:hover .service-dec {
         bottom: 40% !important;
+    }
+    .lmao{
+        opacity: 1;
     }
 }
 
